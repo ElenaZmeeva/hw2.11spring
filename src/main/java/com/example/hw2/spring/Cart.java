@@ -22,6 +22,7 @@ public class Cart {
     }
 
     public List<Integer> add(List<Integer> items) {
+        this.items.addAll(items);
         return items;
     }
 }
